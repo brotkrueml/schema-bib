@@ -1,0 +1,59 @@
+{
+	"name": "brotkrueml/schema-bib",
+	"type": "typo3-cms-extension",
+	"description": "Extend the schema extension with bibliographic-related terms",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Chris Müller",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"chat": "https://typo3.slack.com/archives/CV36M73D5",
+		"issues": "https://github.com/brotkrueml/schema-bib/issues",
+		"source": "https://github.com/brotkrueml/schema-bib"
+	},
+	"keywords": [
+		"TYPO3 CMS",
+		"TYPO3 extension",
+		"JSON-LD",
+		"Structured data",
+		"SEO",
+		"schema.org"
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-json": "*",
+		"brotkrueml/schema": "^1.7",
+		"typo3/cms-core": "^9.5 || ^10.4 || ^11.0"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^2.18",
+		"typo3/coding-standards": "^0.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brotkrueml\\SchemaBib\\": "Classes/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		},
+		"typo3/cms": {
+			"extension-key": "schema_bib",
+			"app-dir": ".Build",
+			"web-dir": ".Build/web"
+		}
+	},
+	"scripts": {
+		"fix-cs": ".Build/bin/php-cs-fixer fix",
+		"zip": "grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o \"../zip/${PWD##*/}_{version}.zip\" v{version}'"
+	}
+}

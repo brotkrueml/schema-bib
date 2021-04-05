@@ -3,9 +3,11 @@ name: CI
 on:
   push:
     paths-ignore:
+      - 'Documentation/**'
       - '**.md'
   pull_request:
     paths:
+      - 'Documentation/**'
       - '**.md'
 
 jobs:

@@ -6,3 +6,8 @@ This TYPO3 extension is an add-on to the
 [schema](https://extensions.typo3.org/extension/schema) extension
 which provides additional [schema.org](https://schema.org/) terms
 related to bibliography: https://schema.org/docs/bib.home.html.
+
+[Documentation](https://docs.typo3.org/p/brotkrueml/schema-bib/master/en-us/) |
+[Changelog](https://github.com/brotkrueml/schema-bib/blob/master/CHANGELOG.md) |
+[TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_bib) |
+[Slack #ext-schema](https://typo3.slack.com/archives/CV36M73D5)

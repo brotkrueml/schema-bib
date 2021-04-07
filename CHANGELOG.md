@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Register slot for additional properties in TYPO3 v9
+
 ## [1.0.0] - 2021-04-06
 
 Initial release with schema definition version 12.0

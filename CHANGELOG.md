@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Allow usage with EXT:schema v2
 
+### Updated
+- Schema definition to version 13.0
+
 ## [1.0.1] - 2021-04-08
 
 ### Fixed

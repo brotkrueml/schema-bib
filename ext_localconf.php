@@ -2,7 +2,7 @@
 defined('TYPO3_MODE') or die();
 
 (function() {
-    if (!(new Brotkrueml\Schema\Compatibility\Compatibility)->isPsr14EventDispatcherAvailable()) {
+    if ((new TYPO3\CMS\Core\Information\Typo3Version())->getMajorVersion() === 9) {
         $signalSlotDispatcher = TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
             TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class
         );

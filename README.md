@@ -10,4 +10,4 @@ related to bibliography: https://schema.org/docs/bib.home.html.
 [Documentation](https://docs.typo3.org/p/brotkrueml/schema-bib/main/en-us/) |
 [Changelog](https://github.com/brotkrueml/schema-bib/blob/main/CHANGELOG.md) |
 [TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_bib) |
-[Slack #ext-schema](https://typo3.slack.com/archives/CV36M73D5)
+[Forum](https://github.com/brotkrueml/schema/discussions)

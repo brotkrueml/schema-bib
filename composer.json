@@ -1,19 +1,8 @@
 {
 	"name": "brotkrueml/schema-bib",
-	"type": "typo3-cms-extension",
 	"description": "Extend the schema extension with bibliographic-related terms",
 	"license": "GPL-2.0-or-later",
-	"authors": [
-		{
-			"name": "Chris Müller",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"chat": "https://typo3.slack.com/archives/CV36M73D5",
-		"issues": "https://github.com/brotkrueml/schema-bib/issues",
-		"source": "https://github.com/brotkrueml/schema-bib"
-	},
+	"type": "typo3-cms-extension",
 	"keywords": [
 		"TYPO3 CMS",
 		"TYPO3 extension",
@@ -22,6 +11,18 @@
 		"SEO",
 		"schema.org"
 	],
+	"authors": [
+		{
+			"name": "Chris Müller",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/brotkrueml/schema-bib/issues",
+		"forum": "https://github.com/brotkrueml/schema/discussions",
+		"source": "https://github.com/brotkrueml/schema-bib",
+		"docs": "https://docs.typo3.org/p/brotkrueml/schema-bib/main/en-us/"
+	},
 	"require": {
 		"php": ">=7.2",
 		"ext-json": "*",
@@ -29,7 +30,8 @@
 		"typo3/cms-core": "^9.5.16 || ^10.4 || ^11.5"
 	},
 	"require-dev": {
-		"brotkrueml/coding-standards": "~1.2.0"
+		"brotkrueml/coding-standards": "~1.2.0",
+		"ergebnis/composer-normalize": "~2.18.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -37,21 +39,22 @@
 		}
 	},
 	"config": {
-		"sort-packages": true,
-		"vendor-dir": ".Build/vendor",
-		"bin-dir": ".Build/bin",
 		"allow-plugins": {
+			"ergebnis/composer-normalize": true,
 			"typo3/class-alias-loader": true,
 			"typo3/cms-composer-installers": true
-		}
+		},
+		"bin-dir": ".Build/bin",
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor"
 	},
 	"extra": {
 		"branch-alias": {
 			"dev-main": "1.2.x-dev"
 		},
 		"typo3/cms": {
-			"extension-key": "schema_bib",
 			"app-dir": ".Build",
+			"extension-key": "schema_bib",
 			"web-dir": ".Build/web"
 		}
 	}

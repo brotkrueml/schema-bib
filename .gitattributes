@@ -2,7 +2,7 @@
 /.gitattributes export-ignore
 /.github export-ignore
 /.gitignore export-ignore
-/.php_cs export-ignore
 /CHANGELOG.md export-ignore
 /Documentation export-ignore
+/ecs.php export-ignore
 /README.md export-ignore

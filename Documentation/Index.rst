@@ -44,6 +44,7 @@ additional schema.org terms related to bibliography.
    Introduction/Index
    Installation/Index
    Developer/Index
+   Changelog/Index
 
 .. toctree::
    :hidden:

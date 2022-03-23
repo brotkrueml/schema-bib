@@ -6,6 +6,12 @@
 Extend the TYPO3 schema extension with bibliographic-related terms
 ==================================================================
 
+:Extension key:
+   schema_bib
+
+:Package name:
+   brotkrueml/schema-bib
+
 :Version:
    |release|
 
@@ -15,48 +21,35 @@ Extend the TYPO3 schema extension with bibliographic-related terms
 :Author:
    Chris Müller
 
-:Email:
-   typo3 (at) krue (dot) ml
-
-:Slack:
-   Channel `#ext-schema <https://typo3.slack.com/archives/CV36M73D5>`_ on
-   `typo3.slack.com <https://typo3.slack.com>`_
-
-:Twitter:
-   `@brotkrueml <https://twitter.com/brotkrueml>`_
-
 :License:
-   This extension documentation is published under the
-   `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
-   (Creative Commons) license
+   This document is published under the `Creative Commons BY 4.0`_ license.
 
-.. rst-class:: horizbuttons-tip-xxl
+:Rendered:
+   |today|
 
-- :ref:`Sitemap`
+----
 
-**TYPO3**
+This TYPO3 extension is an add-on to the `schema extension`_. It provides
+additional schema.org terms related to bibliography.
 
-The content of this document is related to TYPO3 CMS,
-a GNU/GPL CMS/Framework available from `typo3.org
-<https://typo3.org/>`_ .
+----
 
-**Extension Manual**
-
-This documentation is for the TYPO3 extension schema_bib.
-
-If you find an error or something is missing, please:
-`Report a Problem <https://github.com/brotkrueml/schema-bib/issues/new>`_.
-
-**For Contributors**
-
-You are welcome to help improve this manual. Just click on "Edit on GitHub"
-on the top right to submit your change request.
 
 **Table of Contents**
 
 .. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
    Introduction/Index
    Installation/Index
    Developer/Index
+
+.. toctree::
+   :hidden:
+
    Sitemap
 
+
+.. _Creative Commons BY 4.0: https://creativecommons.org/licenses/by/4.0/
+.. _schema extension: https://extensions.typo3.org/extension/schema

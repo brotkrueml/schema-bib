@@ -18,7 +18,7 @@ Using the API
 =============
 
 The API can be used like described in the :ref:`schema manual
-<schema:api>`. But there is one detail: As the classes of this extensions
+<ext_schema:api>`. But there is one detail: As the classes of this extensions
 use a different namespace the instantiation of type models must reflect this::
 
    $comicStory = new \Brotkrueml\SchemaBib\Model\Type\ComicStory();
@@ -33,12 +33,12 @@ Using the view helpers
 ======================
 
 The Fluid view helpers can be used like described in the :ref:`schema manual
-<schema:view-helpers>`:
+<ext_schema:view-helpers>`:
 
 .. code-block:: html
 
    <schema:type.comicStory
-      -id="http://example.org/#some-comic-story"
+      -id="https://example.org/#some-comic-story"
       name="some comic story"
    />
 

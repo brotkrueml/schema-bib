@@ -22,12 +22,7 @@ bibliography: `https://schema.org/docs/bib.home.html
 <https://schema.org/docs/bib.home.html>`_.
 
 For more information about the schema extension have a look into the
-:ref:`documentation <schema:introduction>`.
-
-.. tip::
-
-   There is a Slack channel #ext-schema on `typo3.slack.com
-   <https://typo3.slack.com/>`_ for questions, suggestions, feedback, etc.
+:ref:`documentation <ext_schema:introduction>`.
 
 
 .. _vocabulary:

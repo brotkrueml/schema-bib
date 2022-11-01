@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - schema.org definition to version 15.0
 
+### Removed
+- Compatibility with TYPO3 v9
+
 ## [1.1.0] - 2021-07-07
 
 ### Added

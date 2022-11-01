@@ -17,6 +17,12 @@ Updated
 
 * schema.org definition to version 15.0
 
+Removed
+^^^^^^^
+
+
+* Compatibility with TYPO3 v9
+
 `1.1.0 <https://github.com/brotkrueml/schema-bib/compare/v1.0.1...v1.1.0>`_ - 2021-07-07
 --------------------------------------------------------------------------------------------
 

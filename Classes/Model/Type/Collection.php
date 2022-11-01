@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaBib\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * A collection of items e.g. creative works or products.
+ * A collection of items, e.g. creative works or products.
  */
 final class Collection extends AbstractType
 {
@@ -87,7 +87,6 @@ final class Collection extends AbstractType
         'position',
         'potentialAction',
         'producer',
-        'provider',
         'publication',
         'publisher',
         'publisherImprint',

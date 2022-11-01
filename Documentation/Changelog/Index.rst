@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v1.1.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Updated
+^^^^^^^
+
+
+* schema.org definition to version 15.0
+
 `1.1.0 <https://github.com/brotkrueml/schema-bib/compare/v1.0.1...v1.1.0>`_ - 2021-07-07
 --------------------------------------------------------------------------------------------
 
@@ -24,7 +30,7 @@ Updated
 ^^^^^^^
 
 
-* Schema definition to version 13.0
+* schema.org definition to version 13.0
 
 `1.0.1 <https://github.com/brotkrueml/schema-bib/compare/v1.0.0...v1.0.1>`_ - 2021-04-08
 --------------------------------------------------------------------------------------------

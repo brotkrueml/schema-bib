@@ -15,7 +15,6 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A sequential publication of comic stories under a
- * unifying title, for example "The Amazing Spider-Man" or "Groo the
  * Wanderer".
  */
 final class ComicSeries extends AbstractType
@@ -91,7 +90,6 @@ final class ComicSeries extends AbstractType
         'position',
         'potentialAction',
         'producer',
-        'provider',
         'publication',
         'publisher',
         'publisherImprint',

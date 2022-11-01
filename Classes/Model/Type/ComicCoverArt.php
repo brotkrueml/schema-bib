@@ -98,7 +98,6 @@ final class ComicCoverArt extends AbstractType
         'position',
         'potentialAction',
         'producer',
-        'provider',
         'publication',
         'publisher',
         'publisherImprint',

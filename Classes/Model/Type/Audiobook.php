@@ -105,7 +105,6 @@ final class Audiobook extends AbstractType
         'potentialAction',
         'producer',
         'productionCompany',
-        'provider',
         'publication',
         'publisher',
         'publisherImprint',

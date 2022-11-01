@@ -6,7 +6,7 @@ services:
 
   Brotkrueml\SchemaBib\:
     resource: '../Classes/*'
-    exclude: '../Classes/{Model,ViewHelpers}'
+    exclude: '../Classes/Model'
 
   Brotkrueml\SchemaBib\EventListener\RegisterAdditionalProperties:
     tags:

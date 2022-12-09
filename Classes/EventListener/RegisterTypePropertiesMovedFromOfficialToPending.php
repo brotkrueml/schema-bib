@@ -25,7 +25,7 @@ class RegisterTypePropertiesMovedFromOfficialToPending
     /**
      * @var array<class-string>
      */
-    private array $providerTypes = [
+    private $providerTypes = [
         Type\Atlas::class,
         Type\Audiobook::class,
         Type\Chapter::class,

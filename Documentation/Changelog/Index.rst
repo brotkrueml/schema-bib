@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v1.2.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Fixed
+^^^^^
+
+
+* Type error in event listener for PHP < 7.4
+
 `1.2.0 <https://github.com/brotkrueml/schema-bib/compare/v1.1.0...v1.2.0>`_ - 2022-11-01
 --------------------------------------------------------------------------------------------
 

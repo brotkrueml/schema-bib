@@ -14,7 +14,7 @@ Target group: **Administrators**
 
 .. note::
 
-   The extension is available for TYPO3 v10 LTS, TYPO3 v11 LTS and TYPO3 v12.
+   The extension is available for TYPO3 v10 LTS, TYPO3 v11 LTS and TYPO3 v12 LTS.
    Use version 1.1 for compatibility with TYPO3 v9.
 
 The recommended way to install this extension is by using Composer. In your

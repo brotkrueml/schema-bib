@@ -126,6 +126,7 @@ final class Audiobook extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'transcript',

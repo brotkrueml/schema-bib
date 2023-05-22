@@ -104,6 +104,7 @@ final class Collection extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translationOfWork',

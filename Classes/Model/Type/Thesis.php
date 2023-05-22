@@ -105,6 +105,7 @@ final class Thesis extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translationOfWork',

@@ -107,6 +107,7 @@ final class Chapter extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translationOfWork',

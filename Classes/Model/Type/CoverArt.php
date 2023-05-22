@@ -115,6 +115,7 @@ final class CoverArt extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translationOfWork',

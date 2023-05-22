@@ -107,6 +107,7 @@ final class Newspaper extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translationOfWork',

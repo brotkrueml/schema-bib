@@ -476,6 +476,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('translationOfWork');
             $event->registerAdditionalProperty('workTranslation');
         }
+        if ($event->getType() === Type\TextObject::class) {
+            $event->registerAdditionalProperty('publisherImprint');
+            $event->registerAdditionalProperty('translationOfWork');
+            $event->registerAdditionalProperty('workTranslation');
+        }
         if ($event->getType() === Type\VideoGallery::class) {
             $event->registerAdditionalProperty('publisherImprint');
             $event->registerAdditionalProperty('translationOfWork');
@@ -800,6 +805,11 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('workTranslation');
             }
             if ($event->getType() === PendingType\Statement::class) {
+                $event->registerAdditionalProperty('publisherImprint');
+                $event->registerAdditionalProperty('translationOfWork');
+                $event->registerAdditionalProperty('workTranslation');
+            }
+            if ($event->getType() === PendingType\Syllabus::class) {
                 $event->registerAdditionalProperty('publisherImprint');
                 $event->registerAdditionalProperty('translationOfWork');
                 $event->registerAdditionalProperty('workTranslation');

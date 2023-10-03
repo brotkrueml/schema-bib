@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaBib\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An audiobook.
  */
+#[Type('Audiobook')]
 final class Audiobook extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abridged',
         'accessMode',

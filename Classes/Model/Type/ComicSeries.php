@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaBib\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * unifying title, for example "The Amazing Spider-Man" or "Groo the
  * Wanderer".
  */
+#[Type('ComicSeries')]
 final class ComicSeries extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'accessMode',
         'accessModeSufficient',

@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaBib\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -21,9 +22,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * series to which the issue belongs; the issue number; and the variant
  * description of the issue (if any).
  */
+#[Type('ComicIssue')]
 final class ComicIssue extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'accessMode',
         'accessModeSufficient',

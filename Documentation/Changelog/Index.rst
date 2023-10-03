@@ -11,6 +11,20 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v1.3.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Added
+^^^^^
+
+
+* Compatibility with schema version 3
+
+Removed
+^^^^^^^
+
+
+* Compatibility with TYPO3 v10
+* Compatibility with PHP < 8.1
+* Compatibility with schema version 1 and 2
+
 `1.3.0 <https://github.com/brotkrueml/schema-bib/compare/v1.2.1...v1.3.0>`_ - 2023-05-22
 --------------------------------------------------------------------------------------------
 

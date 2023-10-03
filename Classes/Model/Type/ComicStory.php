@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaBib\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * unit of a comic, including the interior stories, covers, and backmatter. Most
  * comics have at least two stories: a cover (ComicCoverArt) and an interior story.
  */
+#[Type('ComicStory')]
 final class ComicStory extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'accessMode',
         'accessModeSufficient',

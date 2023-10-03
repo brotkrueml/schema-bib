@@ -6,16 +6,13 @@ services:
 
   Brotkrueml\SchemaBib\:
     resource: '../Classes/*'
-    exclude: '../Classes/Model'
 
   Brotkrueml\SchemaBib\EventListener\RegisterAdditionalProperties:
     tags:
       - name: event.listener
         identifier: 'ext-schema-bib/registerAdditionalProperties'
-        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent
 
   Brotkrueml\SchemaBib\EventListener\RegisterTypePropertiesMovedFromOfficialToPending:
     tags:
       - name: event.listener
         identifier: 'ext-schema-bib/registerTypePropertiesMovedFromOfficialToPending'
-        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent

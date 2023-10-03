@@ -11,8 +11,3 @@ services:
     tags:
       - name: event.listener
         identifier: 'ext-schema-bib/registerAdditionalProperties'
-
-  Brotkrueml\SchemaBib\EventListener\RegisterTypePropertiesMovedFromOfficialToPending:
-    tags:
-      - name: event.listener
-        identifier: 'ext-schema-bib/registerTypePropertiesMovedFromOfficialToPending'

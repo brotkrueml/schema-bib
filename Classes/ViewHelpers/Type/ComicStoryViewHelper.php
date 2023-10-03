@@ -20,4 +20,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class ComicStoryViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'ComicStory';
 }

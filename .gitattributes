@@ -2,8 +2,5 @@
 /.gitattributes export-ignore
 /.github export-ignore
 /.gitignore export-ignore
-/CHANGELOG.md export-ignore
-/Documentation export-ignore
 /ecs.php export-ignore
 /Makefile export-ignore
-/README.md export-ignore

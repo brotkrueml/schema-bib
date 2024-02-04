@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-02-04
+
 ### Added
 - Compatibility with TYPO3 v13
 
@@ -61,7 +63,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release with schema definition version 12.0
 
 
-[Unreleased]: https://github.com/brotkrueml/schema-bib/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/schema-bib/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/brotkrueml/schema-bib/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/brotkrueml/schema-bib/compare/v1.3.0...v2.0.0
 [1.3.0]: https://github.com/brotkrueml/schema-bib/compare/v1.2.1...v1.3.0
 [1.2.1]: https://github.com/brotkrueml/schema-bib/compare/v1.2.0...v1.2.1

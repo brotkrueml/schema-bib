@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Compatibility with TYPO3 v13
+
 ### Updated
 - schema.org definition to version 25.0
 

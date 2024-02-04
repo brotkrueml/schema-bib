@@ -619,6 +619,11 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('translationOfWork');
                 $event->registerAdditionalProperty('workTranslation');
             }
+            if ($event->getType() === PendingType\Certification::class) {
+                $event->registerAdditionalProperty('publisherImprint');
+                $event->registerAdditionalProperty('translationOfWork');
+                $event->registerAdditionalProperty('workTranslation');
+            }
             if ($event->getType() === PendingType\Claim::class) {
                 $event->registerAdditionalProperty('publisherImprint');
                 $event->registerAdditionalProperty('translationOfWork');

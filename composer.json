@@ -32,8 +32,6 @@
 		"brotkrueml/coding-standards": "~5.1.0",
 		"ergebnis/composer-normalize": "~2.42.0"
 	},
-    "minimum-stability": "RC",
-    "prefer-stable": true,
 	"autoload": {
 		"psr-4": {
 			"Brotkrueml\\SchemaBib\\": "Classes/"

@@ -9,7 +9,7 @@
         class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
         project-repository="https://github.com/brotkrueml/schema-bib"
         project-issues="https://github.com/brotkrueml/schema-bib/issues"
-        project-discussions="https://github.com/brotkrueml/schema/discussions"
+        project-discussions="https://typo3.slack.com/app_redirect?channel=CV36M73D5"
         edit-on-github-branch="main"
         edit-on-github="brotkrueml/schema-bib"
         typo3-core-preferred="stable"

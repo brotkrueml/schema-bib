@@ -126,6 +126,7 @@ final class CoverArt extends AbstractType
         'url',
         'version',
         'video',
+        'weight',
         'width',
         'workExample',
         'workTranslation',

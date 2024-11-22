@@ -19,7 +19,6 @@
 	],
 	"support": {
 		"issues": "https://github.com/brotkrueml/schema-bib/issues",
-		"forum": "https://github.com/brotkrueml/schema/discussions",
 		"source": "https://github.com/brotkrueml/schema-bib",
 		"docs": "https://docs.typo3.org/p/brotkrueml/schema-bib/main/en-us/"
 	},

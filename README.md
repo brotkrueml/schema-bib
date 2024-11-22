@@ -1,6 +1,7 @@
 # Extend the TYPO3 schema extension with bibliographic-related terms
 
-[![CI Status](https://github.com/brotkrueml/schema-bib/workflows/CI/badge.svg?branch=main)](https://github.com/brotkrueml/schema-bib/actions?query=workflow%3ACI)
+[![CI](https://github.com/brotkrueml/schema-bib/actions/workflows/ci.yml/badge.svg)](https://github.com/brotkrueml/schema-bib/actions/workflows/ci.yml)
+[![Documentation](https://github.com/brotkrueml/schema-bib/actions/workflows/docs.yml/badge.svg)](https://github.com/brotkrueml/schema-bib/actions/workflows/docs.yml)
 
 This TYPO3 extension is an add-on to the
 [schema](https://extensions.typo3.org/extension/schema) extension

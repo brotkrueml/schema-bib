@@ -29,8 +29,8 @@
 		"typo3/cms-core": "^11.5.19 || ^12.4 || ^13.4"
 	},
 	"require-dev": {
-		"brotkrueml/coding-standards": "~5.1.0",
-		"ergebnis/composer-normalize": "~2.42.0"
+		"brotkrueml/coding-standards": "~6.1.0",
+		"ergebnis/composer-normalize": "~2.44.0"
 	},
 	"autoload": {
 		"psr-4": {

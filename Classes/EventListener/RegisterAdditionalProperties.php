@@ -579,6 +579,11 @@ final class RegisterAdditionalProperties
             }
         }
         if (ExtensionManagementUtility::isLoaded('schema_pending')) {
+            if ($event->getType() === PendingType\_3DModel::class) {
+                $event->registerAdditionalProperty('publisherImprint');
+                $event->registerAdditionalProperty('translationOfWork');
+                $event->registerAdditionalProperty('workTranslation');
+            }
             if ($event->getType() === PendingType\AdvertiserContentArticle::class) {
                 $event->registerAdditionalProperty('publisherImprint');
                 $event->registerAdditionalProperty('translationOfWork');
@@ -830,11 +835,6 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('workTranslation');
             }
             if ($event->getType() === PendingType\WebContent::class) {
-                $event->registerAdditionalProperty('publisherImprint');
-                $event->registerAdditionalProperty('translationOfWork');
-                $event->registerAdditionalProperty('workTranslation');
-            }
-            if ($event->getType() === PendingType\_3DModel::class) {
                 $event->registerAdditionalProperty('publisherImprint');
                 $event->registerAdditionalProperty('translationOfWork');
                 $event->registerAdditionalProperty('workTranslation');

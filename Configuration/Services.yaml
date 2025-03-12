@@ -6,8 +6,3 @@ services:
 
   Brotkrueml\SchemaBib\:
     resource: '../Classes/*'
-
-  Brotkrueml\SchemaBib\EventListener\RegisterAdditionalProperties:
-    tags:
-      - name: event.listener
-        identifier: 'ext-schema-bib/registerAdditionalProperties'

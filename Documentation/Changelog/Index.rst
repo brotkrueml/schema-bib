@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v2.2.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Changed
+^^^^^^^
+
+
+* Switch from ``RegisterAdditionalTypePropertiesEvent`` to ``AdditionalPropertiesInterface``
+
 `2.2.0 <https://github.com/brotkrueml/schema-bib/compare/v2.1.0...v2.2.0>`_ - 2024-11-22
 --------------------------------------------------------------------------------------------
 

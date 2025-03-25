@@ -130,6 +130,7 @@ final class ComicIssue extends AbstractType
         'variantCover',
         'version',
         'video',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

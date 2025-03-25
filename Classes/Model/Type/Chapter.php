@@ -118,6 +118,7 @@ final class Chapter extends AbstractType
         'url',
         'version',
         'video',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

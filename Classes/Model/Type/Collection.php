@@ -115,6 +115,7 @@ final class Collection extends AbstractType
         'url',
         'version',
         'video',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

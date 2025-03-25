@@ -116,6 +116,7 @@ final class Thesis extends AbstractType
         'url',
         'version',
         'video',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

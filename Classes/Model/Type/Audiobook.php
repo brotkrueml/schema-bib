@@ -79,7 +79,6 @@ final class Audiobook extends AbstractType
         'genre',
         'hasPart',
         'headline',
-        'height',
         'identifier',
         'illustrator',
         'image',
@@ -139,7 +138,7 @@ final class Audiobook extends AbstractType
         'url',
         'version',
         'video',
-        'width',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

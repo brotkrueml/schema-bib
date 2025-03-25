@@ -115,6 +115,7 @@ final class Atlas extends AbstractType
         'url',
         'version',
         'video',
+        'wordCount',
         'workExample',
         'workTranslation',
     ];

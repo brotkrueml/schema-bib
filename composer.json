@@ -29,7 +29,7 @@
 	},
 	"require-dev": {
 		"brotkrueml/coding-standards": "~6.1.0",
-		"ergebnis/composer-normalize": "~2.44.0"
+		"ergebnis/composer-normalize": "~2.45.0"
 	},
 	"autoload": {
 		"psr-4": {

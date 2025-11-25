@@ -16,7 +16,7 @@
     />
     <project
         title="schema_bib"
-        release="2.6.0-dev"
+        release="2.6.0"
         version="2.6"
         copyright="since 2021 by Chris Müller"
     />

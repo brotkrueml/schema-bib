@@ -1,6 +1,6 @@
 {
 	"name": "brotkrueml/schema-bib",
-	"description": "Extend the schema extension with bibliographic-related terms",
+	"description": "Schema.org extension for bibliography - Extend the schema extension with bibliographic-related terms",
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"keywords": [

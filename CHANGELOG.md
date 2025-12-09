@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Match composer description with TYPO3 v14 title handling (#1)
+
 ## [2.6.0] - 2025-11-25
 
 ### Added

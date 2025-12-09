@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v2.6.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Fixed
+^^^^^
+
+
+* Match composer description with TYPO3 v14 title handling (#1)
+
 `2.6.0 <https://github.com/brotkrueml/schema-bib/compare/v2.5.0...v2.6.0>`_ - 2025-11-25
 --------------------------------------------------------------------------------------------
 

@@ -96,6 +96,7 @@ final class ComicIssue extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'pageEnd',
         'pageStart',
         'pagination',

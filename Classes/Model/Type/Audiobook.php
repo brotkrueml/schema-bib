@@ -102,6 +102,7 @@ final class Audiobook extends AbstractType
         'name',
         'numberOfPages',
         'offers',
+        'owner',
         'playerType',
         'position',
         'potentialAction',

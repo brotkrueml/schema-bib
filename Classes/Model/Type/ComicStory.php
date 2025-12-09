@@ -92,6 +92,7 @@ final class ComicStory extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'penciler',
         'position',
         'potentialAction',

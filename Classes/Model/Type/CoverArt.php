@@ -96,6 +96,7 @@ final class CoverArt extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'penciler',
         'position',
         'potentialAction',

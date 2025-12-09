@@ -87,6 +87,7 @@ final class Thesis extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'position',
         'potentialAction',
         'producer',

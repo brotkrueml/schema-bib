@@ -88,6 +88,7 @@ final class Newspaper extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'position',
         'potentialAction',
         'producer',

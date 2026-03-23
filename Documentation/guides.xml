@@ -17,8 +17,8 @@
     />
     <project
         title="schema_bib"
-        release="2.7.0"
-        version="2.7"
+        release="2.8.0-dev"
+        version="2.8"
         copyright="since 2021 by Chris Müller"
     />
     <inventory id="ext_schema" url="https://docs.typo3.org/p/brotkrueml/schema/main/en-us/"/>

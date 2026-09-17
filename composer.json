@@ -54,7 +54,6 @@
 			"Package": {
 				"providesPackages": {}
 			},
-			"app-dir": ".Build",
 			"extension-key": "schema_bib",
 			"version": "3.0.0-dev",
 			"web-dir": ".Build/web"

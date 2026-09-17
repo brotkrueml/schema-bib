@@ -14,8 +14,8 @@ Target group: **Administrators**
 
 .. note::
 
-   The extension in version |version| is available for TYPO3 v11 LTS, TYPO3 v12
-   LTS, TYPO3 v13 LTS and TYPO3 v14, and required at least PHP 8.1.
+   The extension in version |version| is available for TYPO3 v13 LTS and
+   TYPO3 v14 LTS.
 
 The recommended way to install this extension is by using Composer. In your
 Composer-based TYPO3 project root, just type::

@@ -11,6 +11,14 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-bib/compare/v2.8.0...HEAD>`_
 ----------------------------------------------------------------------------------
 
+Removed
+^^^^^^^
+
+
+* Compatibility with EXT:schema version 3
+* Compatibility with TYPO3 v11
+* Compatibility with TYPO3 v12
+
 `2.8.0 <https://github.com/brotkrueml/schema-bib/compare/v2.7.0...v2.8.0>`_ - 2026-03-23
 --------------------------------------------------------------------------------------------
 
@@ -51,7 +59,7 @@ Added
 ^^^^^
 
 
-* Compatibility with EXT:schema v4
+* Compatibility with EXT:schema version 4
 
 `2.4.0 <https://github.com/brotkrueml/schema-bib/compare/v2.3.0...v2.4.0>`_ - 2025-04-01
 --------------------------------------------------------------------------------------------

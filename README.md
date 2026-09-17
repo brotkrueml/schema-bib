@@ -12,7 +12,8 @@ related to bibliography: https://schema.org/docs/bib.home.html.
 
 | Latest release | TYPO3                     | PHP   | EXT:schema | Updates will contain             |
 |----------------|---------------------------|-------|------------|----------------------------------|
-| 2.x            | 11.5 / 12.4 / 13.4 / 14.x | ≥ 8.1 | 3.x / 4.x  | Features, security and bug fixes |
+| 3.x            | 13.4 / 14.3               | ≥ 8.2 | 4.x        | Features, security and bug fixes |
+| 2.x            | 11.5 / 12.4 / 13.4 / 14.3 | ≥ 8.1 | 3.x / 4.x  | End of life (since Sep 2026)     |
 | 1.x            | 10.4 / 11.5 / 12.4        | ≥ 7.2 | 1.x / 2.x  | End of life (since Oct 2024)     |
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/schema-bib/main/en-us/) |

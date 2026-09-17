@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class RadioSeries implements AdditionalPropertiesInterface
+final readonly class RadioSeries implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DataCatalog implements AdditionalPropertiesInterface
+final readonly class DataCatalog implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

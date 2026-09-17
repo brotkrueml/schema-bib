@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Blog implements AdditionalPropertiesInterface
+final readonly class Blog implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

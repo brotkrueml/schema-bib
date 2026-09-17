@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Quiz implements AdditionalPropertiesInterface
+final readonly class Quiz implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

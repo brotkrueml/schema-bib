@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SatiricalArticle implements AdditionalPropertiesInterface
+final readonly class SatiricalArticle implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

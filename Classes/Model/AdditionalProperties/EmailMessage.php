@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class EmailMessage implements AdditionalPropertiesInterface
+final readonly class EmailMessage implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

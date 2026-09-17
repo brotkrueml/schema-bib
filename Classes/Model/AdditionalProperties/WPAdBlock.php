@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class WPAdBlock implements AdditionalPropertiesInterface
+final readonly class WPAdBlock implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

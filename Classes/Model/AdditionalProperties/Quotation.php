@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Quotation implements AdditionalPropertiesInterface
+final readonly class Quotation implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

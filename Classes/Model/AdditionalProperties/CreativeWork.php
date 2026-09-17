@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class CreativeWork implements AdditionalPropertiesInterface
+final readonly class CreativeWork implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

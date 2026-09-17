@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DeclarationOfConformity implements AdditionalPropertiesInterface
+final readonly class DeclarationOfConformity implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

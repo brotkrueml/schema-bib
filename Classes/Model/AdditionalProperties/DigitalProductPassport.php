@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DigitalProductPassport implements AdditionalPropertiesInterface
+final readonly class DigitalProductPassport implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Guide implements AdditionalPropertiesInterface
+final readonly class Guide implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

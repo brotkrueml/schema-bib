@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SocialMediaPosting implements AdditionalPropertiesInterface
+final readonly class SocialMediaPosting implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

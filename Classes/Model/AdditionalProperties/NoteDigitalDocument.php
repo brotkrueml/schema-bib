@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class NoteDigitalDocument implements AdditionalPropertiesInterface
+final readonly class NoteDigitalDocument implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

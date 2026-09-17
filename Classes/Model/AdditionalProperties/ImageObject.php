@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class ImageObject implements AdditionalPropertiesInterface
+final readonly class ImageObject implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

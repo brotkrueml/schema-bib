@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class QAPage implements AdditionalPropertiesInterface
+final readonly class QAPage implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

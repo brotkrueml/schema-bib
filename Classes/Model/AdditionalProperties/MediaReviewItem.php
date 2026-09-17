@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class MediaReviewItem implements AdditionalPropertiesInterface
+final readonly class MediaReviewItem implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

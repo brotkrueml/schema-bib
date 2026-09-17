@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class TVClip implements AdditionalPropertiesInterface
+final readonly class TVClip implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Certification implements AdditionalPropertiesInterface
+final readonly class Certification implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class CheckoutPage implements AdditionalPropertiesInterface
+final readonly class CheckoutPage implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class HyperToc implements AdditionalPropertiesInterface
+final readonly class HyperToc implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

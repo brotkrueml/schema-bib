@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaBib\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class VideoGameClip implements AdditionalPropertiesInterface
+final readonly class VideoGameClip implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {
